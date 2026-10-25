@@ -6,7 +6,7 @@
 
 **v0.3 设计预览版，尚非完整指针包。**
 
-[下载与版本说明](https://github.com/747468105-ops/softglow-cursors/releases/tag/v0.3.0-preview.1)
+[下载与版本说明](https://github.com/Chinwen199/softglow-cursors/releases/tag/v0.3.0-preview.1)
 
 ## 外观预览
 
@@ -16,9 +16,9 @@
 
 ## 下载
 
-- [下载淡蓝色 Blue](https://github.com/747468105-ops/softglow-cursors/releases/download/v0.3.0-preview.1/Softglow-blue-trial01.cursor)
-- [下载烟灰色 Graphite](https://github.com/747468105-ops/softglow-cursors/releases/download/v0.3.0-preview.1/Softglow-graphite-trial01.cursor)
-- [完整源文件 ZIP](https://github.com/747468105-ops/softglow-cursors/releases/download/v0.3.0-preview.1/softglow-cursors-v0.3-source.zip)：包含 Swift 生成与校验脚本、SVG、透明 PNG、多分辨率图片、动画条带和主题文件。
+- [下载淡蓝色 Blue](https://github.com/Chinwen199/softglow-cursors/releases/download/v0.3.0-preview.1/Softglow-blue-trial01.cursor)
+- [下载烟灰色 Graphite](https://github.com/Chinwen199/softglow-cursors/releases/download/v0.3.0-preview.1/Softglow-graphite-trial01.cursor)
+- [完整源文件 ZIP](https://github.com/Chinwen199/softglow-cursors/releases/download/v0.3.0-preview.1/softglow-cursors-v0.3-source.zip)：包含 Swift 生成与校验脚本、SVG、透明 PNG、多分辨率图片、动画条带和主题文件。
 
 目前为通过浏览器上传的公开预览快照，完整源码目录结构保存在 ZIP 内。
 
@@ -61,4 +61,4 @@
 
 ## 反馈
 
-欢迎在 [Issues](https://github.com/747468105-ops/softglow-cursors/issues) 提交建议。反馈兼容问题时，请附 macOS / MaCursor 版本、应用名称和截图。
+欢迎在 [Issues](https://github.com/Chinwen199/softglow-cursors/issues) 提交建议。反馈兼容问题时，请附 macOS / MaCursor 版本、应用名称和截图。
