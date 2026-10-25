@@ -1,58 +1,11 @@
-# Cursor Coverage
+# v0.4 覆盖范围
 
-## 中文覆盖清单
+三套主题：A 清透冰蓝、D 烟灰玻璃、E 白边微光。作者 Chinwen。
 
-当前为 v0.3 试用版，蓝色和烟灰色使用相同的状态映射，不是完整发布版。
+每套 53 个底层标识，MaCursor 默认显示 51 项；多数为同图兼容别名，不是 51 种造型。
 
-已做：普通箭头、文字选择、链接/指向手形、张手、握手、横向/纵向缩放、东北-西南和西北-东南两个斜向缩放、等待和忙碌动画。
+已包含：箭头、文字选择、指向手、张手、握手、横向及纵向缩放、两个对角方向缩放、忙碌与等待动画。
 
-窗口边缘暂时共用所在轴向的双向箭头，尚未单独绘制单向边缘图形。
+尚未专门设计：复制、禁止、帮助、移动、准星等；可能回退为系统指针。应用自行绘制的指针不保证被替换。
 
-待补齐：复制、别名、拖拽复制、移动、上下文菜单、禁止、帮助、移除特效、十字准星、单元格选择、横排文字光标。
-
-其他系统场景还包括：截图相机、计数手形、异或单元格、方形缩放、放大和缩小。
-
-没有实现的状态不拼接第三方主题图案。即使补齐系统状态，一些应用自己绘制的指针仍可能不变。
-
-下方为英文技术清单，保留标识方便开发者检查。
-
-Trial 0.3. Both palettes use the same state mapping. Not a complete release.
-
-## Implemented
-
-- Arrow / ArrowS.
-- Text / IBeamS / IBeamXOR.
-- Link / Pointing.
-- Open / Closed hand.
-- Wait / Busy: 24 frames, 0.08 seconds per frame.
-- Horizontal resize: cursor IDs 17, 18, 19, 27, 28, 38.
-- Vertical resize: cursor IDs 21, 22, 23, 31, 32, 36.
-- NE/SW diagonal: cursor IDs 29, 30, 37.
-- NW/SE diagonal: cursor IDs 33, 34, 35.
-
-Directional edges currently share the double-ended artwork for their axis;
-separate one-sided edge artwork is a future refinement, not a missing mapping.
-
-## Missing Compared With Bibata Modern Ice
-
-- Alias / Copy / Copy Drag.
-- Move.
-- Context arrow / Context menu.
-- Forbidden / Help / Poof.
-- Precision crosshair / Crosshair 2 / Cell.
-- Horizontal text.
-
-## Additional System Slots
-
-- Screenshot camera / camera variants.
-- Counting hand states.
-- Cell XOR / Resize Square.
-- Zoom In / Zoom Out.
-
-Unimplemented roles are intentionally not filled with another theme's artwork.
-App-drawn pointers may remain unchanged even after all system slots are covered.
-
-## References
-
-- MaCursor: CursorEngine/MACCursorDefinitions.swift (cursorMap / browserAliasMap).
-- Official MaCursor theme bundle: BibataModernIce.cursor (39 visible roles).
+已通过图片解码、透明通道、热点边界、动画条带尺寸、兼容别名一致性和对角方向差异检查。前版兼容映射已在作者本机 Chrome 手形与拖窗场景中试用，新材质沿用映射；跨应用与长时间使用仍需更多实测。
